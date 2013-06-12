@@ -1,0 +1,19 @@
+<jnlp 
+    spec="1.0+" 
+    codebase="http://dandydot.dyndns.org:8080/~dot/software/jtowers"
+    href="JTowers.jnlp">
+
+    <information> 
+        <title>JTowers</title> 
+        <vendor>DOT</vendor> 
+        <offline-allowed/> 
+        <icon href="JTowers.jpg"/>
+    </information> 
+
+    <resources> 
+        <j2se version="1.5"/> 
+        <jar href="JTowers.jar"/> 
+    </resources> 
+
+    <application-desc main-class="org.dyndns.dandydot.jtowers.JTowers"/> 
+</jnlp>
